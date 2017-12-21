@@ -1,4 +1,4 @@
-# Niftyverse ![Niftyverse]()
+# Niftyverse ![Niftyverse](https://github.com/TrevorDev/Niftyverse/raw/master/webExtension/icons/border-48.png)
 Niftyverse is a collection of web VR/AR/XR views for every websites on the internet.
 ## How to use
   - Install the extension for your browser of choice: [Firefox](https://addons.mozilla.org/en-US/firefox/extensions/), [Chrome](https://chrome.google.com/webstore/category/extensions?hl=en) or [Edge](https://support.microsoft.com/en-ca/help/4027935/microsoft-edge-extensions)
