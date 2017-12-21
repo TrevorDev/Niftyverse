@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Niftyverse",
+    "version": "1.0",
+
+    "description": "Web VR/AR/XR version of every website.",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["niftyverse.js"]
+        }
+    ]
+}
