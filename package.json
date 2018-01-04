@@ -1,0 +1,26 @@
+{
+  "name": "niftyverse",
+  "version": "1.0.0",
+  "description": "every website in ar",
+  "main": "index.js",
+  "dependencies": {
+    "babylonjs": "^3.2.0-alpha0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd webExtension && webpack -w\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorDev/Niftyverse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorDev/Niftyverse/issues"
+  },
+  "homepage": "https://github.com/TrevorDev/Niftyverse#readme"
+}

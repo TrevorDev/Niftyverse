@@ -8,11 +8,19 @@
     "icons": {
         "48": "icons/border-48.png"
     },
-
+    "permissions": [
+        "activeTab",
+        "tabs", "http://*/*", "https://*/*"
+      ],
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["niftyverse.js"]
+            "js": ["dist/niftyverse.js"]
         }
-    ]
+    ],
+    "browser_action": {
+        "default_icon": "icons/border-48.png",
+        "default_title": "Niftyverse",
+        "default_popup": "popup/main.html"
+      }
 }
